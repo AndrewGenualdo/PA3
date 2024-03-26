@@ -1,6 +1,7 @@
 //
 // Created by andrew.genualdo on 3/22/2024.
 //
+
 #include "linkedList.h"
 #include "mushroom.h"
 
@@ -26,6 +27,7 @@ Node *LinkedList::get(int index)
 
 int LinkedList::set(int index, Mushroom *data)
 {
+
     return 0;
 }
 
@@ -52,30 +54,64 @@ LinkedList::~LinkedList()
 
 void LinkedList::insert(int index, Mushroom *data)
 {
-
+    if(index < 0 || index > mCount) return;
+    Node *current = mHead;
+    int i = 0;
+    while(current != nullptr && i < index) {
+        current = current->mNext;
+        i++;
+    }
+    Node *next = current->mNext;
+    current->mNext = new Node(data);
+    current->mNext->mNext = next;
+    mCount++;
 }
 
 void LinkedList::append(Mushroom *data)
 {
-
+    mTail->mNext = new Node(data);
+    mCount++;
 }
 
 void LinkedList::remove(int index)
 {
-
+    if(index < 0 || index > mCount-1) return;
+    Node *pointing = mHead;
+    Node *current = nullptr;
+    int i = 0;
+    while(pointing != nullptr && i < index) {
+        pointing = pointing->mNext;
+        current = pointing->mNext;
+        i++;
+    }
+    if(pointing != nullptr) pointing->mNext = current->mNext;
+    delete current;
+    mCount--;
 }
 
-bool LinkedList::isExist(int index)
+bool LinkedList::isExist(Mushroom *data)
 {
+    Node *current = mHead;
+    while(current != nullptr) {
+        if(current->mData == data) return true;
+        current = current->mNext;
+    }
     return false;
 }
 
-void LinkedList::load()
+void LinkedList::load(string *filePath)
 {
-
+    ifstream dataStream = ifstream(*filePath);
+    while(!dataStream.eof()) {
+        Mushroom *data = nullptr;
+        dataStream >> data;
+        append(data);
+        mCount++;
+    }
+    dataStream.close();
 }
 
-void LinkedList::save()
+void LinkedList::save(string *filePath)
 {
 
 }

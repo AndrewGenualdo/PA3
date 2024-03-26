@@ -23,11 +23,21 @@
 #define PA3_LINKEDLIST_H
 
 #include "mushroom.h"
+#include "iostream"
+#include <fstream>
+
+using namespace std;
 
 struct Node
 {
     Node *mNext;
-    Mushroom *data;
+    Mushroom *mData;
+
+public:
+    Node(Mushroom *data) {
+        mNext = nullptr;
+        mData = data;
+    }
 };
 
 class LinkedList
@@ -46,9 +56,9 @@ public:
     void insert(int index, Mushroom *data);
     void append(Mushroom *data);
     void remove(int index);
-    bool isExist(int index);
-    void load();
-    void save();
+    bool isExist(Mushroom *data);
+    void load(string *filePath);
+    void save(string *filePath);
 };
 
 #endif //PA3_LINKEDLIST_H
