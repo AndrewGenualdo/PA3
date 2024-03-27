@@ -57,8 +57,8 @@ public:
     void append(Mushroom *data);
     void remove(int index);
     bool isExist(Mushroom *data);
-    void load(string *filePath);
-    void save(string *filePath);
+    void load(const string& filePath);
+    void save(const string& filePath);
 };
 
 #endif //PA3_LINKEDLIST_H
