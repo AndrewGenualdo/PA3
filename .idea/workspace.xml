@@ -21,26 +21,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="599d2414-3e4b-48da-80a4-18e927266153" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PA3.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datapoint.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/datapoint.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dataset.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/node.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-8352651233144ee48110.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-4ef3e1ffdfc0fd672403.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-910ee60fcf52a21d675f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-22T17-57-53-0893.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-3456fb4c930b6f22be86.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-7d4fe46dd5bf09f58a84.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2024-03-27T20-05-14-0394.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-PA3-Debug-04e488cc81b95752823a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.27.8/CMakeSystem.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeConfigureLog.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/linkedList.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mushroom.h" beforeDir="false" afterPath="$PROJECT_DIR$/mushroom.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/data.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/out.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/out.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/header.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/linkedList.h" beforeDir="false" afterPath="$PROJECT_DIR$/dataset.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mushroom.h" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pa3.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/pa3.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +88,7 @@
     "cidr.known.project.marker": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/drewg/Desktop/Dev/.school/PA3",
+    "last_opened_file_path": "C:/Users/drewg/Desktop/Dev/.school/PA3/cmake-build-debug",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,11 +98,19 @@
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\drewg\Desktop\Dev\.school\PA3\cmake-build-debug" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\andrew.genualdo\Desktop\GitHub\PA3\cmake-build-debug" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PA3" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="PA3" TARGET_NAME="PA3" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="PA3" RUN_TARGET_NAME="PA3">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -117,7 +130,7 @@
       <workItem from="1711507118815" duration="214000" />
       <workItem from="1711508019464" duration="731000" />
       <workItem from="1711508762734" duration="597000" />
-      <workItem from="1711567847515" duration="10098000" />
+      <workItem from="1711567847515" duration="32384000" />
     </task>
     <servers />
   </component>

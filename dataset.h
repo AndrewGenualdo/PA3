@@ -19,46 +19,35 @@
  * then retain a copy of this assignment on its database for the purpose of future plagiarism checking)
  */
 
-#ifndef PA3_LINKEDLIST_H
-#define PA3_LINKEDLIST_H
+#ifndef PA3_DATASET_H
+#define PA3_DATASET_H
 
-#include "mushroom.h"
+#include "datapoint.h"
+#include "node.h"
 #include "iostream"
 #include <fstream>
 
 using namespace std;
 
-struct Node
-{
-    Node *mNext;
-    Mushroom *mData;
-
-public:
-    Node(Mushroom *data) {
-        mNext = nullptr;
-        mData = data;
-    }
-};
-
-class LinkedList
+class Dataset
 {
     Node *mHead, *mTail;
     int mCount;
 
 public:
-    int size();
+    Dataset();
+    ~Dataset();
+
+    void append(DataPoint data);
     Node* get(int index);
-    int set(int index, Mushroom *data);
-
-    LinkedList();
-    ~LinkedList();
-
-    void insert(int index, Mushroom *data);
-    void append(Mushroom *data);
+    bool isExist(const DataPoint& data);
+    void insert(int index, DataPoint data);
+    int load(const string& filePath, bool loadK);
     void remove(int index);
-    bool isExist(Mushroom *data);
-    void load(const string& filePath);
-    void save(const string& filePath);
+    void set(int index, const DataPoint& data);
+    int size();
+    void store(const string& filePath);
+    void storePredictions(const string& filePath);
 };
 
-#endif //PA3_LINKEDLIST_H
+#endif //PA3_DATASET_H
