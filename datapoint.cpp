@@ -177,10 +177,9 @@ ifstream &operator>>(ifstream &ifstream, DataPoint *rhs)
 
     string line;
     getline(ifstream, line);
-    if (line.empty())
+    if (line.empty()) //testing if it doesn't need to look for 'e'/'p'
     {
-        rhs->mData[0] = -1;
-        return ifstream;
+        rhs->mEdible = false;
     } else
     {
         rhs->mEdible = line[1] == 'e';

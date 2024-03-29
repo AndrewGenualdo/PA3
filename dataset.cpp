@@ -149,17 +149,13 @@ int Dataset::load(const string &filePath, bool loadK)
         cout << "Loaded 'k' value: " << k << endl;
     }
 
+    DataPoint data = DataPoint();
+    dataStream >> &data;
     while (!dataStream.eof())
     {
-        DataPoint data = DataPoint();
+        append(data);
+        data = DataPoint();
         dataStream >> &data;
-        if (data.mData[0] != -1)
-        {
-            append(data);
-        } else
-        {
-            break;
-        }
     }
     dataStream.close();
     return k;
